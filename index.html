@@ -56,7 +56,6 @@
         e.preventDefault();
         video.controls = false;
         if (video.paused) {
-          video.requestFullscreen();
           console.log('start');
           video.play();
         } else {
